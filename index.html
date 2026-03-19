@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharan Majumder's Site</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9fafb;
+    color: #111;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    color: #555;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #e5e7eb;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Resume */
+.resume iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Sharan Majumder</h1>
+    <p>PhD Student in Computer Science</p>
+    <p>Researching Computational Geometry</p>
+</section>
+
+<!-- ABOUT -->
+<section>
+    <h2>About</h2>
+    <div class="card">
+        <p>
+            I am a PhD student focused on machine learning and natural language processing.
+            My research explores how AI can improve human learning and large-scale systems.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>Skills</h2>
+    <div class="card skills">
+        <span>Python</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+        <span>Machine Learning</span>
+        <span>Natural Language Processing</span>
+        <span>Node.js</span>
+        <span>Android Studio</span>
+    </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section>
+    <h2>Publications</h2>
+    <div class="card">
+        <p><strong>Impact of AI in Large Classroom Settings</strong></p>
+        <p>Submitted, 2024</p>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Signify</h3>
+        <p>Mobile app for learning American Sign Language.</p>
+        
+    </div>
+
+    <div class="card">
+        <h3>Clips for a Cause</h3>
+        <p>Platform connecting individuals with free haircut services.</p>
+        
+    </div>
+
+</section>
+
+<!-- RESUME -->
+<section class="resume">
+    <h2>Resume</h2>
+
+    <div class="card">
+        <p>
+            <a href="resume.pdf" target="_blank">Download Resume (PDF)</a>
+        </p>
+
+        <!-- Embedded PDF -->
+        <iframe src="resume.pdf"></iframe>
+    </div>
+</section>
+
+</div>
+
+</body>
+</html>
