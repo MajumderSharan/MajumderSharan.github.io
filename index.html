@@ -87,19 +87,20 @@ a:hover {
 <!-- HERO -->
 <section class="hero">
     <h1>Sharan Majumder</h1>
+    <img src="Majumder, Sharan Headshot.jpg" alt="Sharan Majumder Headshot" style="width: 150px; border-radius: 50%; margin: 1rem 0;">
     <p>PhD Student in Computer Science</p>
     <p>Researching Computational Geometry</p>
 </section>
 
 <!-- ABOUT -->
-<section>
+<!-- <section>
     <h2>About</h2>
     <div class="card">
         <p>
             Current computer science PhD student researching computational geometry.
         </p>
     </div>
-</section>
+</section> -->
 
 <!-- SKILLS -->
 <section>
@@ -121,9 +122,17 @@ a:hover {
 <section>
     <h2>Publications</h2>
     <div class="card">
-        <p><strong>Impact of AI in Large Classroom Settings - Accepted with minor revisions</strong></p>
-        <p></p>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css">
+        
+        <p><a href="https://arxiv.org/html/2506.18941v1" target="_blank"><strong>Impact of AI in Large Classroom Settings - Accepted with minor revisions</strong></a></p>
+        <ul>
+            <li>Conducted a study to measure if A.I. technologies can increase student engagement in large classroom settings</li>
+            <li>Performed data and conversation analysis of over 200 students’ conversations to observe how well students were engaged in
+            learning</li>
+            <li>Observed students reported higher satisfaction and engagement compared to control group</li>
+            <li>Submitted a paper which has detailing the background on AI in education, how the study was conducted, and the significance
+            of the data</li>
+        </ul>
+        
     </div>
 </section>
 
@@ -132,16 +141,40 @@ a:hover {
     <h2>Projects</h2>
 
     <div class="card">
+        <h3>Scratch Implementation of a Feedforward Neural Network</h3>
+        <ul> 
+            <li>Achieved 96% classification accuracy on a dataset of 1000 points by building and training a custom neural network (2–3–1 architecture) from scratch using sigmoid activation and backpropagation over 10,000 epochs</li>
+            <li>Developed a binary classifier to detect whether 2D points lie within a triangular region, improving predictive performance by manually implementing forward propagation, loss computation, and gradient-based weight updates</li>
+            <li>Evaluated model generalization by expanding the input space beyond the training distribution, identifying a drop to 74% accuracy and analyzing limitations in learned decision boundaries</li>
+        </ul>
+    </div>
+    <div class="card">
         <h3>Signify</h3>
-        <p>Mobile app for learning American Sign Language.</p>
-        
+        <ul>
+            <li>Collaborated in a team to design and develop a mobile application for learning American Sign Language (ASL)</li>
+            <li>Designed an implemented an SQLite relational database schema storing and querying user information, achievements, and discussions</li>
+            <li>Enabled seamless app updates by managing database version control through onUpgrade(), ensuring new columns could be added without disrupting user data</li>
+            <li>Increased development efficiency by creating a debug page within the app that allowed the team to test database functionality before implementation, reducing integration errors</li>
+        </ul>
+
     </div>
 
     <div class="card">
         <h3>Clips for a Cause</h3>
-        <p>Platform connecting individuals with free haircut services.</p>
-        
+        <ul>
+            <li>Led Agile development as the Scrum Master, managing sprint planning, and retrospectives to ensure smooth team collaboration and timely delivery</li>
+            <li>Built a web app to serve as a charity to reduce socioeconomic barriers to personal grooming by connecting individuals in need with free haircut services on a dedicated platform</li>
+            <li>Developed and optimized backend services using Node.js, handling user authentication, donation processing, and real-time updates for barbers and donors</li>
+        </ul>
     </div>
+
+    <div class="card">
+        <h3>Modeling Lead Bioaccumulation in the Human Body from Chocolate Consumption</h3>
+        <ul>
+            <li>Developed a two-compartment differential equation model describing the circulation of lead between blood and bone tissue in the human body</li>
+            <li>Analyzed long-term dynamics using phase plane and eigenvalue analysis, showing the system converges to a stable equilibrium representing steady state lead levels</li>
+            
+        </ul>
 
 </section>
 
